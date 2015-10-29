@@ -3,6 +3,11 @@ package com.bibi.base.utils;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 转List工具类
+ * @author 刘宇	E-mail: liuyu_k26@163.com
+ * @version 创建时间：2015年10月28日 上午9:46:32
+ */
 public class ArrayTools{
 	/**
 	 * 将[a,b,c,d]格式的字符串转为String[]{a,b,c,d}格式

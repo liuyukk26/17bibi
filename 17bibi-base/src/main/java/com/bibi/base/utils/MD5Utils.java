@@ -5,9 +5,10 @@ import java.security.SignatureException;
 import org.apache.commons.codec.digest.DigestUtils;
 
 /**
- * 功能：MD5签名处理核心文件， 版本：3.3 修改日期：2014-10-27
- * */
-
+ * MD5加密
+ * @author 刘宇	E-mail: liuyu_k26@163.com
+ * @version 创建时间：2015年10月28日 上午9:51:30
+ */
 public class MD5Utils {
 
 	/**

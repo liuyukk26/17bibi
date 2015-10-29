@@ -13,6 +13,11 @@ import java.io.IOException;
 import javax.imageio.ImageIO;
 import javax.servlet.http.HttpServletRequest;
 
+/**
+ * 图片处理
+ * @author 刘宇	E-mail: liuyu_k26@163.com
+ * @version 创建时间：2015年10月28日 上午9:48:24
+ */
 public class ImageUtil {
 	/**
 	 * 图片水印

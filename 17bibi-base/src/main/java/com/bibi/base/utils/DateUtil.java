@@ -4,6 +4,11 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * 日期工具类
+ * @author 刘宇	E-mail: liuyu_k26@163.com
+ * @version 创建时间：2015年10月28日 上午9:48:06
+ */
 public class DateUtil {
 
 	/**

@@ -4,10 +4,8 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * 当前用户ip相关处理
-  @Name: IPUtil.java 
-  @Author: admin 
-  @Date: 2014年11月12日 
-  @Description:
+ * @author 刘宇	E-mail: liuyu_k26@163.com
+ * @version 创建时间：2015年10月28日 上午9:46:22
  */
 public class IPUtil {
 	/**
