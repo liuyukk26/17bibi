@@ -63,53 +63,124 @@
                     <!-- BEGIN THEME PANEL -->
                     <%@ include file="../base/theme.jsp"%>
                     <!-- END THEME PANEL -->
-                    <h3 class="page-title"> Blank Page Layout
-                        <small>blank page layout</small>
+                    <h3 class="page-title"> 添加系统用户
+                        <small>在这里可以添加系统用户</small>
                     </h3>
                     <div class="page-bar">
                         <ul class="page-breadcrumb">
                             <li>
                                 <i class="icon-home"></i>
-                                <a href="index.html">Home</a>
+                                <a href="index.html">主页</a>
                                 <i class="fa fa-angle-right"></i>
                             </li>
                             <li>
-                                <span>Page Layouts</span>
+                                <span>系统管理</span>
+                                <i class="fa fa-angle-right"></i>
+                            </li>
+                            <li>
+                                <span>用户管理</span>
                             </li>
                         </ul>
                         <div class="page-toolbar">
                             <div class="btn-group pull-right">
-                                <button type="button" class="btn btn-fit-height grey-salt dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000" data-close-others="true"> Actions
+                                <button type="button" class="btn btn-fit-height grey-salt dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000" data-close-others="true"> 选项
                                     <i class="fa fa-angle-down"></i>
                                 </button>
                                 <ul class="dropdown-menu pull-right" role="menu">
                                     <li>
                                         <a href="#">
-                                            <i class="icon-bell"></i> Action</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="icon-shield"></i> Another action</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="icon-user"></i> Something else here</a>
+                                            <i class="icon-bell"></i> 操作</a>
                                     </li>
                                     <li class="divider"> </li>
                                     <li>
                                         <a href="#">
-                                            <i class="icon-bag"></i> Separated link</a>
+                                            <i class="icon-bag"></i> 分隔链接</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <!-- END PAGE HEADER-->
-                    <div class="note note-info">
-                        <p> A black page template with a minimal dependency assets to use as a base for any custom page you create </p>
-                    </div>
+                    
+                    <!-- BEGIN CONTENT BODY -->
+                    <div class="portlet box green">
+	                    <div class="portlet-title">
+	                        <div class="caption">
+	                            <i class="fa fa-gift"></i>添加系统用户</div>
+	                        <div class="tools">
+	                            <a href="javascript:;" class="collapse"> </a>
+	                            <a href="javascript:;" class="remove"> </a>
+	                        </div>
+	                    </div>
+	                    <div class="portlet-body form">
+	                        <!-- BEGIN FORM-->
+	                        <form action="#" class="form-horizontal">
+	                            <div class="form-body">
+	                                <div class="form-group">
+	                                    <label class="col-md-3 control-label">帐号</label>
+	                                    <div class="col-md-4">
+	                                        <input type="text" class="form-control input-circle" placeholder="帐号">
+	                                    </div>
+	                                </div>
+	                                <div class="form-group">
+	                                    <label class="col-md-3 control-label">密码</label>
+	                                    <div class="col-md-4">
+	                                        <div class="input-group">
+	                                            <input type="password" class="form-control input-circle-left" placeholder="密码">
+	                                            <span class="input-group-addon input-circle-right">
+	                                                <i class="fa fa-user"></i>
+	                                            </span>
+	                                        </div>
+	                                    </div>
+	                                </div>
+	                                <div class="form-group">
+	                                    <label class="col-md-3 control-label">确认密码</label>
+	                                    <div class="col-md-4">
+	                                        <div class="input-group">
+	                                            <input type="password" class="form-control input-circle-left" placeholder="确认密码">
+	                                            <span class="input-group-addon input-circle-right">
+	                                                <i class="fa fa-user"></i>
+	                                            </span>
+	                                        </div>
+	                                    </div>
+	                                </div>
+	                                <div class="form-group">
+	                                    <label class="col-md-3 control-label">用户姓名</label>
+	                                    <div class="col-md-4">
+	                                        <input type="text" class="form-control input-circle" placeholder="用户姓名">
+	                                    </div>
+	                                </div>
+	                                <div class="form-group">
+	                                    <label class="col-md-3 control-label">电子邮箱</label>
+	                                    <div class="col-md-4">
+	                                        <div class="input-group">
+	                                            <span class="input-group-addon input-circle-left">
+	                                                <i class="fa fa-envelope"></i>
+	                                            </span>
+	                                            <input type="email" class="form-control input-circle-right" placeholder="电子邮箱"> </div>
+	                                    </div>
+	                                </div>
+	                                <div class="form-group">
+	                                    <label class="col-md-3 control-label">手机号</label>
+	                                    <div class="col-md-4">
+	                                        <input type="text" class="form-control input-circle" placeholder="手机号">
+	                                    </div>
+	                                </div>
+	                            </div>
+	                            <div class="form-actions">
+	                                <div class="row">
+	                                    <div class="col-md-offset-3 col-md-9">
+	                                        <button type="submit" class="btn btn-circle green">提交</button>
+	                                        <button type="button" class="btn btn-circle grey-salsa btn-outline">取消</button>
+	                                    </div>
+	                                </div>
+	                            </div>
+	                        </form>
+	                        <!-- END FORM-->
+	                    </div>
+	                </div>
+                	<!-- END CONTENT BODY -->
                 </div>
-                <!-- END CONTENT BODY -->
             </div>
             <!-- END CONTENT -->
             <!-- BEGIN QUICK SIDEBAR -->

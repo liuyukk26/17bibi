@@ -28,15 +28,15 @@
 				</a>
 					<ul class="sub-menu">
 						<li>
-							<a href="login.html">
+							<a href="../users/user_list.jsp">
 							查看用户</a>
 						</li>
 						<li>
-							<a href="login_2.html">
+							<a href="../users/user_add.jsp">
 							新增用户</a>
 						</li>
 						<li>
-							<a href="login_3.html">
+							<a href="../users/user_update.jsp">
 							修改用户</a>
 						</li>
 						<li>

@@ -15,20 +15,20 @@
         <meta content="" name="description" />
         <meta content="" name="author" />
         <!-- BEGIN GLOBAL MANDATORY STYLES -->
-        <link href="../../assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-        <link href="../../assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
-        <link href="../../assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="../../assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css" />
-        <link href="../../assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
         <!-- END GLOBAL MANDATORY STYLES -->
         <!-- BEGIN THEME GLOBAL STYLES -->
-        <link href="../../assets/global/css/components.min.css" rel="stylesheet" id="style_components" type="text/css" />
-        <link href="../../assets/global/css/plugins.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/css/components.min.css" rel="stylesheet" id="style_components" type="text/css" />
+        <link href="../assets/global/css/plugins.min.css" rel="stylesheet" type="text/css" />
         <!-- END THEME GLOBAL STYLES -->
         <!-- BEGIN THEME LAYOUT STYLES -->
-        <link href="../../assets/layouts/layout2/css/layout.min.css" rel="stylesheet" type="text/css" />
-        <link href="../../assets/layouts/layout2/css/themes/blue.min.css" rel="stylesheet" type="text/css" id="style_color" />
-        <link href="../../assets/layouts/layout2/css/custom.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/layouts/layout2/css/layout.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/layouts/layout2/css/themes/blue.min.css" rel="stylesheet" type="text/css" id="style_color" />
+        <link href="../assets/layouts/layout2/css/custom.min.css" rel="stylesheet" type="text/css" />
         <!-- END THEME LAYOUT STYLES -->
         <link rel="shortcut icon" href="favicon.ico" /> </head>
     <!-- END HEAD -->
@@ -70,35 +70,31 @@
                         <ul class="page-breadcrumb">
                             <li>
                                 <i class="icon-home"></i>
-                                <a href="index.html">Home</a>
+                                <a href="index.html">主页</a>
                                 <i class="fa fa-angle-right"></i>
                             </li>
                             <li>
-                                <span>Page Layouts</span>
+                                <span>系统管理</span>
+                                <i class="fa fa-angle-right"></i>
+                            </li>
+                            <li>
+                                <span>用户管理</span>
                             </li>
                         </ul>
                         <div class="page-toolbar">
                             <div class="btn-group pull-right">
-                                <button type="button" class="btn btn-fit-height grey-salt dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000" data-close-others="true"> Actions
+                                <button type="button" class="btn btn-fit-height grey-salt dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000" data-close-others="true"> 选项
                                     <i class="fa fa-angle-down"></i>
                                 </button>
                                 <ul class="dropdown-menu pull-right" role="menu">
                                     <li>
                                         <a href="#">
-                                            <i class="icon-bell"></i> Action</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="icon-shield"></i> Another action</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="icon-user"></i> Something else here</a>
+                                            <i class="icon-bell"></i> 操作</a>
                                     </li>
                                     <li class="divider"> </li>
                                     <li>
                                         <a href="#">
-                                            <i class="icon-bag"></i> Separated link</a>
+                                            <i class="icon-bag"></i> 分隔链接</a>
                                     </li>
                                 </ul>
                             </div>
@@ -121,26 +117,26 @@
         <%@ include file="../base/footer.jsp" %>
         <!-- END FOOTER -->
         <!--[if lt IE 9]>
-		<script src="../../assets/global/plugins/respond.min.js"></script>
-		<script src="../../assets/global/plugins/excanvas.min.js"></script> 
+		<script src="../assets/global/plugins/respond.min.js"></script>
+		<script src="../assets/global/plugins/excanvas.min.js"></script> 
 		<![endif]-->
         <!-- BEGIN CORE PLUGINS -->
-        <script src="../../assets/global/plugins/jquery.min.js" type="text/javascript"></script>
-        <script src="../../assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="../../assets/global/plugins/js.cookie.min.js" type="text/javascript"></script>
-        <script src="../../assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
-        <script src="../../assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
-        <script src="../../assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
-        <script src="../../assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
-        <script src="../../assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/js.cookie.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
         <!-- END CORE PLUGINS -->
         <!-- BEGIN THEME GLOBAL SCRIPTS -->
-        <script src="../../assets/global/scripts/app.min.js" type="text/javascript"></script>
+        <script src="../assets/global/scripts/app.min.js" type="text/javascript"></script>
         <!-- END THEME GLOBAL SCRIPTS -->
         <!-- BEGIN THEME LAYOUT SCRIPTS -->
-        <script src="../../assets/layouts/layout2/scripts/layout.min.js" type="text/javascript"></script>
-        <script src="../../assets/layouts/layout2/scripts/demo.min.js" type="text/javascript"></script>
-        <script src="../../assets/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
+        <script src="../assets/layouts/layout2/scripts/layout.min.js" type="text/javascript"></script>
+        <script src="../assets/layouts/layout2/scripts/demo.min.js" type="text/javascript"></script>
+        <script src="../assets/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
         <!-- END THEME LAYOUT SCRIPTS -->
     </body>
 

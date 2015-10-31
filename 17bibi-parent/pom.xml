@@ -26,7 +26,7 @@
 		<module>../17bibi-base</module>
 		<!-- 公用自定义包 end -->
 		<!-- 后台 接口 start -->
-		<module>../17bibi-web</module>
+		<module>../17bibi-main</module>
 		
 
 	</modules>
@@ -306,11 +306,6 @@
 			<dependency>
 				<groupId>17bibi</groupId>
 				<artifactId>17bibi-model</artifactId>
-				<version>${app.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>17bibi</groupId>
-				<artifactId>17bibi-service</artifactId>
 				<version>${app.version}</version>
 			</dependency>
 			<!-- 公用自定义包 end -->
